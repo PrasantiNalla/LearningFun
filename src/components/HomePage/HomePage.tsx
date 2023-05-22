@@ -3,9 +3,8 @@ import "./HomePage.scss";
 
 export const HomePage: React.FunctionComponent = () => {
     return (<>
-        {/* <img className='learning-icon' src="./icons/KeepLearning.jpg" /> */}
         <h1 className='rainbow-text'>
-            Explore different subjects and have fun learning!
+            Explore different topics and have fun learning!
         </h1>
         <div className='home-container'>
             <Link className='btn-p purple' to="/home">
