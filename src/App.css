@@ -1,0 +1,147 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: .5rem;
+  text-align: center;
+}
+
+html {
+  background-image: url('./icons/vector-school-cartoon-template-frame-with-office-student-supplies-stationery_364586-820.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+
+.welcome-message {
+  white-space: nowrap;
+}
+
+.welcome-message div {
+  display: inline-block;
+  padding: 5px;
+}
+
+.red {
+  color: rgb(227, 97, 97);
+}
+
+.blue {
+  color: rgb(144, 181, 237);
+}
+
+.green {
+  color: rgb(115, 181, 115);
+}
+
+.orange {
+  color: rgb(222, 166, 87);
+}
+
+.purple {
+  color: rgb(169, 109, 225);
+}
+
+.rainbow-colors {
+  animation: rainbow-color 3s infinite;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+@keyframes rainbow-color {
+  0% {
+    color: rgb(216, 60, 60);
+  }
+
+  14% {
+    color: rgb(197, 131, 93);
+  }
+
+  28% {
+    color: rgb(244, 244, 21);
+  }
+
+  42% {
+    color: rgb(80, 223, 80);
+  }
+
+  57% {
+    color: rgb(99, 147, 224);
+  }
+
+  71% {
+    color: rgb(172, 84, 235);
+  }
+
+  85% {
+    color: violet;
+  }
+
+  100% {
+    color: rgb(243, 126, 237);
+  }
+}
+
+.rainbow-text {
+  position: relative;
+  display: inline-block;
+  animation: rainbow 2s linear infinite;
+  background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes rainbow {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.logo {
+  height: 25em;
+  padding: 1.5em;
+  background-color: transparent;
+}
+
+.btn {
+  background-color: transparent;
+  width: 300px;
+  height: 100px;
+  align-self: center;
+  font-size: 2.5em;
+  border: 0px;
+}
+
+.btn-p,
+.btn-o,
+.btn-r,
+.btn-g {
+  width: 200px;
+  height: 50px;
+  font-size: 2.0em;
+  border: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-p:hover {
+  box-shadow: 0 0 10px 5px rgb(169, 109, 225);
+}
+
+.btn-r:hover {
+  box-shadow: 0 0 10px 5px rgb(227, 97, 97);
+}
+
+.btn-g:hover {
+  box-shadow: 0 0 10px 5px rgb(115, 181, 115);
+}
+
+.btn-o:hover {
+  box-shadow: 0 0 10px 5px rgb(222, 166, 87);
+}

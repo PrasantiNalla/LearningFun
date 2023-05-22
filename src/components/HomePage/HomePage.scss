@@ -1,0 +1,41 @@
+.home-header {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.subject-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.subject-text {
+    margin: 0px;
+}
+
+.learning-icon {
+    height: 5em;
+    width: auto;
+    background-color: transparent;
+}
+
+@media (max-width: 390px) {
+    .rainbow-text {
+        font-weight: 400 !important;
+        font-size: 35px !important;
+    }
+
+    .home-container {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+    }
+
+}
