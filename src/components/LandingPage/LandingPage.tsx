@@ -5,7 +5,6 @@ export const LandingPage: React.FunctionComponent = () => {
     return (
         <>
             <h1 className='rainbow-text'>
-                {/* <img className="landing-icons" src="./icons/TimeToLearn.png" /> */}
                 Welcome Aboard To Fun Learning!
             </h1>
             <div className="container">
